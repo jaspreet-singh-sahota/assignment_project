@@ -1,0 +1,13 @@
+.table-container {
+  margin: 15px;
+  width: calc(100% - 30px) !important;
+  height: 60vh;
+  border: 1px solid rgba(224, 224, 224, 1);
+  border-radius: 15px;
+  box-shadow: 0 2px 4px 0 rgba(177, 174, 174, 0.2),
+    0 3px 10px 0 rgba(141, 137, 137, 0.19);
+}
+
+.table-container::-webkit-scrollbar {
+  display: none;
+}
